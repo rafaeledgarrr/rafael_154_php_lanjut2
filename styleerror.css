@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:gainsboro;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    margin-top: 0; 
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px; 
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
